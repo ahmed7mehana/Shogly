@@ -1,0 +1,41 @@
+[
+  {
+    "title": "thoughts",
+    "imageSrc": "skills/thoughts.png",
+    "link":"Thoughts",
+    "to":"CheckOut"
+  },
+  {
+    "title": "Daily Report",
+    "imageSrc": "skills/Daily Report.png",
+    "link":"DailyReport",
+    "to":"CheckOut"
+
+  },
+  {
+    "title": "Calc",
+    "imageSrc": "skills/calc.png",
+    "link":"https://agrtantaedu-my.sharepoint.com/:x:/g/personal/ahmed31016518_agr_tanta_edu_eg/EaW_RTb_clFPiSzs2jba_O8Bscdy-eepLA_tnL-DAJRZxQ?e=cNoqZB"
+  },
+  {
+    "title": "Soon", 
+    "imageSrc": "skills/soon.png",
+    "link":""
+  },
+  {
+    "title": "Soon", 
+    "imageSrc": "skills/soon.png",
+    "link":""
+  },
+
+  {
+    "title": "Soon",
+    "imageSrc": "skills/soon.png",
+    "link":""
+  },
+  {
+    "title": "Soon",
+    "imageSrc": "skills/soon.png",
+    "link":""
+  }
+]

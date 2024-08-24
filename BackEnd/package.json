@@ -1,0 +1,25 @@
+{
+  "name": "shogly-backend",
+  "version": "1.0.0",
+  "description": "backend of shogly app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "ahmed-mehana",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.5.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.14",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
