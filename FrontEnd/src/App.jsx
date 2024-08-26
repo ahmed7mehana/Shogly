@@ -6,17 +6,18 @@ import DailyReport from "./pages/DailyReport";
 
 function App() {
   return (
-    <div >
+    
     <BrowserRouter>
+    <div className="APP">
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/Thoughts" element={<Thoughts />} />       
         <Route path="/DailyReport" element={<DailyReport />} />       
       </Routes>
+    </div>
     </BrowserRouter>
 
-  
-    </div>
+
   );
 }
 
