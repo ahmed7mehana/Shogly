@@ -21,11 +21,11 @@ function UpdateForm({ item, setUpdate, Update, id }) {
   };
 
   return (
-    <div className='flex flex-col p-1' key={item.id}>
+    <div className='flex flex-col p-1 ' key={item.id}>
       <input 
         value={title} 
         onChange={(e) => setTitle(e.target.value)} 
-        className='bg-black text-[25px] mt-2 rounded-lg' 
+        className='bg-black text-[25px] mt-2 rounded-lg ' 
       />
       <select 
         value={category} 

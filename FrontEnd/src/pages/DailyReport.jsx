@@ -16,7 +16,7 @@ function DailyReport() {
   const SHpass = {
     z: "Z731Q",
     A: "A55A",
-    AM: "A65M",
+    AM: "A99M",
   };
 
   // Get all data when the page opens

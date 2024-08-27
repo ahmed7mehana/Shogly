@@ -87,8 +87,8 @@ function Thoughts() {
                 </button>
                 <div className='flex flex-row flex-wrap h-fit m-10 justify-center items-center'>
                   {Thoughts.map((item) => (
-                    <div className=' ' key={item.id}>
-                      <div className="max-w-fit min-w-[300px] flex flex-col border-2 border-[#fff] text-white m-5 p-6 flex-row rounded-lg bg-[#19376d] bg-gradient-to-r from-[#19376d] to-[#6490e2] bg-[length:300%_100%] bg-left hover:bg-[length:100%_100%] hover:bg-right transition-all duration-500">
+                    <div className=' m-3' key={item.id}>
+                      <div className=" w-[290px] flex flex-col border-2 border-[#fff] text-white mt-6 p-4 flex-row rounded-lg bg-[#19376d] bg-gradient-to-r from-[#19376d] to-[#6490e2] bg-[length:300%_100%] bg-left hover:bg-[length:100%_100%] hover:bg-right transition-all duration-500">
                         <div className='flex flex-row justify-between'>
                           <button 
                             className={`border-2 w-fit p-2 rounded-[20%] bg-[#19376d] bg-gradient-to-r from-[#90ade4] to-[#04152d] bg-[length:300%_100%] bg-left hover:bg-[length:100%_100%] hover:bg-right transition-all duration-500 ${loadingDelete === item.id ? 'cursor-not-allowed opacity-50' : ''}`} 

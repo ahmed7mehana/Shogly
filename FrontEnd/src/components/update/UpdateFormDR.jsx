@@ -24,10 +24,26 @@ function UpdateFormDR({ item, id, setUpdate, Update }) {
 
   return (
     <div className='flex flex-col p-1 text-black' key={item.id}>
-      <input value={golash} onChange={(e) => setGolash(e.target.value)} className='text-[25px] mt-2 rounded-lg' />
-      <input value={spreng} onChange={(e) => setSpreng(e.target.value)} className='text-[25px] mt-2 rounded-lg' />
-      <input value={Perished} onChange={(e) => setPerished(e.target.value)} className='text-[25px] mt-2 rounded-lg' />
-      <input value={Malfunctions} onChange={(e) => setMalfunctions(e.target.value)} className='text-center mt-5 rounded-lg p-1' />
+      <div className='flex flex-row flex-wrap justify-between items-center'>
+          <input value={golash} onChange={(e) => setGolash(e.target.value)} className='text-[20px] mt-2 w-[70%] rounded-lg text-center ' />
+          <label className=' text-white text-[20px] '>  جلاش  </label>
+        </div>
+
+        <div className='flex flex-row flex-wrap justify-between items-center'>
+        <input value={spreng} onChange={(e) => setSpreng(e.target.value)} className='text-[20px] mt-2 rounded-lg w-[70%] text-center' />
+        <label className=' text-white text-[20px] '>  الاسبرنج  </label>
+        </div>
+
+        <div className='flex flex-row flex-wrap justify-between items-center'>
+        <input value={Perished} onChange={(e) => setPerished(e.target.value)} className='text-[20px] mt-2 rounded-lg  w-[70%] text-center' />
+        <label className=' text-white text-[20px] '>  الهالك  </label>
+        </div>
+
+        <div className='flex flex-col flex-wrap justify-between items-center mt-3'>
+        <label className=' text-white text-[20px] '>  اعطال  </label>
+        <textarea value={Malfunctions} onChange={(e) => setMalfunctions(e.target.value)} className=' text-end text-[20px]  rounded-lg p-1 w-[100%]' />
+        </div>
+
 
       <button
         onClick={() => UPDATEhandeller(item.id)}

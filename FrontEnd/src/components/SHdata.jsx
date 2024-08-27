@@ -119,7 +119,7 @@ function SHdata({ pass, SHpass, setShow }) {
             filteredReports.map((item) => (
               <div
                 key={item.id}
-                className="border-2 text-white bg-[#19376d] min-w-[300px] m-5 p-6 rounded-lg"
+                className="border-2 text-white bg-[#19376d] w-[280px]  m-5 p-6 rounded-lg"
                 style={{
                   borderColor: `#${selectedMonth.toString().padStart(2, "0")}`,
                 }}
@@ -174,29 +174,29 @@ function SHdata({ pass, SHpass, setShow }) {
                       {new Date(item.createdAt).toISOString().split("T")[0]}
                     </p>
                     {item.golash ? (
-                      <p className="text-right text-[20px]">
-                        جلاش : {item.golash} كرتونه
+                      <p className="text-right text-[22px]">
+                        جلاش : <span className="text-[18px]"> {item.golash} كرتونه </span> 
                       </p>
                     ) : (
                       ""
                     )}
                     {item.spreng ? (
-                      <p className="text-right text-[20px]">
-                        الاسبرنج : {item.spreng} كرتونه
+                      <p className="text-right text-[22px]">
+                        الاسبرنج : <span className="text-[18px]">{item.spreng} كرتونه</span> 
                       </p>
                     ) : (
                       ""
                     )}
                     {item.Perished ? (
-                      <p className="text-right text-[20px]">
-                        هالك : {item.Perished} كيلو
+                      <p className="text-right text-[22px]">
+                        هالك : <span className="text-[18px]"> {item.Perished} كيلو </span>
                       </p>
                     ) : (
                       ""
                     )}
                     {item.Malfunctions ? (
-                      <p className="text-right text-[20px] border-2 border-red-500 rounded-lg p-1">
-                        عطل : {item.Malfunctions}
+                      <p className="text-right text-[22px] border-2 border-red-500 rounded-lg p-1">
+                        عطل : <span className="text-[18px]">{item.Malfunctions}</span>
                       </p>
                     ) : (
                       ""

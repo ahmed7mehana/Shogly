@@ -66,7 +66,7 @@ function Form({show,setShow}) {
     <input
       value={Perished}
       onChange={(e) => setPerished(e.target.value)}
-      className='border-2 rounded-[50px] p-2 mt-2'
+      className='border-2 rounded-[50px] p-2 mt-2 text-end'
       placeholder=' كم كميه الهالك لليوم '
     />
     <div className='flex flex-row justify-between mt-5'>
@@ -77,10 +77,10 @@ function Form({show,setShow}) {
         الاعطال
       </label>
     </div>
-    <input
+    <textarea
       value={Malfunctions}
       onChange={(e) => setMalfunctions(e.target.value)}
-      className='border-2 rounded-[50px] p-2 mt-2'
+      className='border-2 rounded-[50px] text-[22px] p-2 mt-2 text-end'
       placeholder='فيه اعطال النهارده لقدر الله'
     />
 
